@@ -2,6 +2,7 @@ package edu.ucsd.cse110.lab6;
 
 import java.util.List;
 import java.util.Map;
+import java.util.Set;
 import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
@@ -39,6 +40,7 @@ public class Exercises {
         // This pattern matches the spaces between words, as well as punctuation and apostrophes.
         Pattern re = Pattern.compile("('|'s)?[.,;]?[\\s\\n]", Pattern.MULTILINE);
         Stream<String> wordStream = re.splitAsStream(input);
+        Set<String> excludedWords = Constants.excludedWords;
 
         return 0;
     }

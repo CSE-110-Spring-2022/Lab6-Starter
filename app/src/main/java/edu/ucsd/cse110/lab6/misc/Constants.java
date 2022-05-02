@@ -42,9 +42,9 @@ public class Constants {
         "I read, much of the night, and go south in the winter."
     );
 
-    public static final Set<String> stopWords = new HashSet<>(Arrays.asList(
+    public static final Set<String> excludedWords = new HashSet<>(Arrays.asList(
         "is", "the", "of", "and", "pr", "a", "an",
         "with", "he", "she", "in", "for", "on",
-        "we", "you", "i", "go"
+        "we", "you", "i", "go", "tubers", "winter"
     ));
 }

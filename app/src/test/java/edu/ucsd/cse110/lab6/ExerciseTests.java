@@ -46,7 +46,7 @@ public class ExerciseTests {
         long actual2 = Exercises.exercise2("Apples, Bananas, and Melons");
         assertEquals(expected2, actual2);
 
-        long expected3 = 15;
+        long expected3 = 13;
         long actual3 = Exercises.exercise2(Constants.poem);
 
         assertEquals(expected3, actual3);
