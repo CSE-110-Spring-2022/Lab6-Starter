@@ -1,0 +1,21 @@
+graph {
+    anchorage [label="Anchorage"];
+    chicago [label="Chicago"];
+    portland [label="Portland"];
+    pittsburgh [label="Pittsburgh"];
+    san_diego [label="San Diego"];
+
+    // anchorage -- chicago [distance=3570];
+    anchorage -- portland [distance=2533];
+    // anchorage -- pittsburgh [distance=4071];
+    anchorage -- san_diego [distance=3616];
+
+    chicago -- portland [distance=2119];
+    chicago -- pittsburgh [distance=460];
+    // chicago -- san_diego [distance=2077];
+
+    // portland -- pittsburgh [distance=2573];
+    portland -- san_diego [distance=1083];
+
+    pittsburgh -- san_diego [distance=2411];
+}
